@@ -1,0 +1,31 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../../images/background.png');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.btn-hero {
+  background-color: white;
+  color: #000000;
+  padding: 15px 35px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.btn-hero:hover {
+  background-color: #333333;
+  color: #ffffff;
+}

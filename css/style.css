@@ -1,0 +1,66 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('components/hero.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .container {
+  width: 80%;
+  margin: 0 auto;
+} */
+
+.heading {
+  padding: 50px;
+  text-align: center;
+}
+
+.orange-text {
+  color: #ffa200;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+    width: 700px;
+  }
+  .card-product{
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cards {
+    width: 500px;
+  }
+  .card-product{
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .cards {
+    width: 300px;
+  }
+  .card-product{
+    width: 100%;
+  }
+}
